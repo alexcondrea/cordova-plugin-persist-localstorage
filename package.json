@@ -1,0 +1,24 @@
+{
+  "name": "persist-localstorage",
+  "version": "1.0.0",
+  "description": "A Cordova plugin to persist the localstorage. Sometimes the localstorage in webkit gets wiped and the user looses everything stored there",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexcondrea/cordova-plugin-persist-localstorage.git"
+  },
+  "keywords": [
+    "cordova",
+    "plugin",
+    "localstorage"
+  ],
+  "author": "Alexandru Condrea",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexcondrea/cordova-plugin-persist-localstorage/issues"
+  },
+  "homepage": "https://github.com/alexcondrea/cordova-plugin-persist-localstorage#readme"
+}
