@@ -12,9 +12,7 @@ exports.sync = function(success, error) {
 }
 
 exports.wipe = function(success, error) {
-  exec(function() {
-    sync(success, error);
-  }, error, 'PersistLocalstorage', 'wipe', []);
+  exec(success, error, 'PersistLocalstorage', 'wipe', []);
 }
 
 function replaceValues(store) {
